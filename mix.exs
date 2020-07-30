@@ -31,7 +31,7 @@ defmodule PhoenixInlineSvg.Mixfile do
 
   defp deps do
     [
-      {:phoenix, "~> 1.4"},
+      {:phoenix, "~> 1.3.4"},
       {:floki, "~> 0.24"},
       {:inch_ex, "~> 1.0", only: [:dev, :test]},
       {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false},
